@@ -1,0 +1,142 @@
+name: 📧 Sync Ecomail Campaigns
+
+on:
+  schedule:
+    # Spouští každý den ve 2:00 UTC (3:00/4:00 CET podle letního času)
+    - cron: '0 2 * * *'
+  
+  workflow_dispatch:
+    inputs:
+      force_full_sync:
+        description: 'Vynutit plnou synchronizaci (ignorovat stav)'
+        required: false
+        default: false
+        type: boolean
+      debug:
+        description: 'Zapnout debug režim'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    permissions:
+      contents: write  # Potřebné pro commit změn
+      
+    steps:
+      - name: 🛎️ Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: develop  # Pracuje s develop branch
+
+      - name: 📦 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 📥 Install dependencies
+        run: npm ci
+
+      - name: 🔧 Setup environment
+        run: |
+          echo "ECOMAIL_API_KEY=${{ secrets.ECOMAIL_API_KEY }}" >> $GITHUB_ENV
+          echo "FORCE_FULL_SYNC=${{ github.event.inputs.force_full_sync || 'false' }}" >> $GITHUB_ENV
+          echo "DEBUG=${{ github.event.inputs.debug || 'false' }}" >> $GITHUB_ENV
+
+      - name: 🏗️ Build TypeScript
+        run: npm run build
+
+      - name: 🔍 Check for existing sync state
+        id: check_state
+        run: |
+          if [ -f "state/sync-state.json" ]; then
+            echo "state_exists=true" >> $GITHUB_OUTPUT
+            echo "📊 Nalezen existující stav synchronizace"
+          else
+            echo "state_exists=false" >> $GITHUB_OUTPUT
+            echo "📝 Stav synchronizace neexistuje - bude vytvořen nový"
+          fi
+
+      - name: 🚀 Run sync
+        run: npm run sync
+
+      - name: 📊 Check for changes
+        id: changes
+        run: |
+          git add .
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "📄 Žádné změny k commitování"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "📝 Nalezeny změny k commitování"
+            git status --porcelain
+          fi
+
+      - name: 💾 Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          # Konfigurace Git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Příprava commit message s timestamp
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+          SYNC_TYPE="${{ github.event.inputs.force_full_sync == 'true' && 'plná' || 'inkrementální' }}"
+          
+          # Spočítat počet nových souborů
+          NEW_FILES=$(git diff --cached --name-only | grep "knowledge-base/campaigns/" | wc -l)
+          
+          # Vytvořit commit
+          git commit -m "feat(sync): ${SYNC_TYPE} synchronizace kampaní
+
+          - Nově synchronizováno: ${NEW_FILES} kampaní
+          - Čas synchronizace: ${TIMESTAMP}
+          - Trigger: ${{ github.event_name }}
+          
+          🤖 Generated with [Claude Code](https://claude.ai/code)
+          
+          Co-Authored-By: Claude <noreply@anthropic.com>"
+          
+          # Push do develop branch
+          git push origin develop
+          
+          echo "✅ Změny úspěšně commitovány a pushnuty"
+
+      - name: 📋 Generate summary
+        if: always()
+        run: |
+          echo "## 📊 Ecomail Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.changes.outputs.has_changes }}" == "true" ]; then
+            NEW_FILES=$(git log -1 --name-only --pretty=format: | grep "knowledge-base/campaigns/" | wc -l)
+            echo "✅ **Úspěšná synchronizace**" >> $GITHUB_STEP_SUMMARY
+            echo "- Nově synchronizováno: ${NEW_FILES} kampaní" >> $GITHUB_STEP_SUMMARY
+            echo "- Typ: ${{ github.event.inputs.force_full_sync == 'true' && 'Plná synchronizace' || 'Inkrementální synchronizace' }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ **Žádné nové kampaně**" >> $GITHUB_STEP_SUMMARY
+            echo "- Všechny kampaně jsou již synchronizované" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "- Čas spuštění: $(date -u +"%Y-%m-%d %H:%M UTC")" >> $GITHUB_STEP_SUMMARY
+          echo "- Trigger: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f "knowledge-base/summary.md" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### 📄 Podrobný report" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            head -20 knowledge-base/summary.md >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: 🚨 Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Synchronizace selhala!" >> $GITHUB_STEP_SUMMARY
+          echo "Zkontrolujte logy výše pro více informací." >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,26 @@
+{
+  "name": "ecomail-sync",
+  "version": "1.0.0",
+  "description": "Tool for syncing Ecomail campaigns to markdown knowledge base",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "sync": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["ecomail", "sync", "markdown", "knowledge-base"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "turndown": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/turndown": "^5.0.5",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}

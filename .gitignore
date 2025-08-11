@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+coverage/
+.vscode/
+.idea/
+
+# Keep state directory but ignore contents except example
+state/*
+!state/.gitkeep
+!state/sync-state.example.json
+
+# Keep knowledge-base structure but can ignore generated content
+# knowledge-base/campaigns/*.md
+# Uncomment above if you don't want to commit campaign files
