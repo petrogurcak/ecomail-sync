@@ -114,6 +114,11 @@ export class EcomailClient {
       } else {
         campaign = response.data;
       }
+
+      // Pokud má archive_url, přidej HTML s odkazem
+      if (campaign.archive_url && !campaign.html) {
+        campaign.html = `<div><h3>📧 Obsah kampaně</h3><p>Kompletní obsah této kampaně je dostupný na:</p><p><a href="${campaign.archive_url}" target="_blank">${campaign.archive_url}</a></p><p><em>Poznámka: Archivní zobrazení původního emailu odeslaného ${campaign.sent_at || 'neznámého data'}.</em></p></div>`;
+      }
       
       return {
         success: true,
