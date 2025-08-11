@@ -56,7 +56,7 @@ export class EcomailClient {
     status: string = 'sent'
   ): Promise<Result<EcomailApiResponse<EcomailCampaign[]>>> {
     try {
-      const response = await this.client.get<EcomailApiResponse<EcomailCampaign[]>>('/campaigns', {
+      const response = await this.client.get('/campaigns', {
         params: {
           page,
           limit,
@@ -64,9 +64,31 @@ export class EcomailClient {
         }
       });
 
+      if (this.debug) {
+        console.log('📋 API Response data:', JSON.stringify(response.data, null, 2));
+      }
+
+      // Ecomail API vrací přímo array kampaní
+      let campaigns: EcomailCampaign[] = [];
+      
+      if (Array.isArray(response.data)) {
+        campaigns = response.data.map(campaign => ({
+          ...campaign,
+          id: String(campaign.id) // Zajistíme že ID je string
+        }));
+      } else {
+        console.warn('⚠️ Neočekávaný formát API response:', typeof response.data);
+        campaigns = [];
+      }
+
       return {
         success: true,
-        data: response.data
+        data: {
+          data: campaigns,
+          total: response.data.total || campaigns.length,
+          page: response.data.page || page,
+          limit: response.data.limit || limit
+        }
       };
     } catch (error) {
       return this.handleError(error as AxiosError, 'získání seznamu kampaní');
@@ -79,11 +101,23 @@ export class EcomailClient {
    */
   async getCampaignDetail(campaignId: string): Promise<Result<EcomailCampaign>> {
     try {
-      const response = await this.client.get<EcomailCampaign>(`/campaigns/${campaignId}`);
+      const response = await this.client.get(`/campaigns/${campaignId}`);
+      
+      if (this.debug) {
+        console.log(`📧 Campaign detail for ${campaignId}:`, JSON.stringify(response.data, null, 2));
+      }
+
+      // Přizpůsobení formátu response
+      let campaign: EcomailCampaign;
+      if (response.data && response.data.data) {
+        campaign = response.data.data;
+      } else {
+        campaign = response.data;
+      }
       
       return {
         success: true,
-        data: response.data
+        data: campaign
       };
     } catch (error) {
       return this.handleError(error as AxiosError, `získání detailu kampaně ${campaignId}`);
@@ -122,7 +156,9 @@ export class EcomailClient {
         break;
       }
 
-      allCampaigns.push(...campaigns);
+      // Filtrujeme pouze odeslané kampaně (status 3)
+      const sentCampaigns = campaigns.filter(campaign => campaign.status === 3);
+      allCampaigns.push(...sentCampaigns);
       
       if (this.debug) {
         console.log(`  Stránka ${page}: načteno ${campaigns.length} kampaní`);
@@ -162,7 +198,11 @@ export class EcomailClient {
     }
 
     const filteredCampaigns = result.data.filter(campaign => {
-      const campaignDate = new Date(campaign.sent_at || campaign.created_at);
+      // Filtrujeme pouze odeslané kampaně (status 3) s datem odeslání
+      if (campaign.status !== 3 || !campaign.sent_at) {
+        return false;
+      }
+      const campaignDate = new Date(campaign.sent_at);
       return campaignDate > sinceDate;
     });
 

@@ -1,17 +1,19 @@
 export interface EcomailCampaign {
   id: string;
-  name: string;
+  title: string;    // Ecomail používá 'title' místo 'name'
   subject: string;
   preheader?: string;
   html?: string;
   plaintext?: string;
   sent_at?: string;
-  created_at: string;
-  type?: string;
-  status: string;
-  recipients_count?: number;
-  tags?: string[];
-  segment?: string;
+  changed_at?: string;
+  from_name?: string;
+  from_email?: string;
+  status: number;   // Ecomail používá číselný status
+  recipients?: number;  // Ecomail používá 'recipients' místo 'recipients_count'
+  ga?: string;
+  template_id?: number;
+  archive_url?: string;
 }
 
 export interface EcomailApiResponse<T> {
@@ -36,8 +38,9 @@ export interface CampaignMetadata {
   sentAt?: string;
   type?: string;
   recipientsCount?: number;
-  tags?: string[];
-  segment?: string;
+  fromName?: string;
+  fromEmail?: string;
+  ga?: string;
 }
 
 export type Result<T, E = Error> = 

@@ -125,8 +125,8 @@ export class SyncManager {
     this.state.lastSyncDate = new Date().toISOString();
     
     const sortedCampaigns = syncedCampaigns.sort((a, b) => {
-      const dateA = new Date(a.sent_at || a.created_at).getTime();
-      const dateB = new Date(b.sent_at || b.created_at).getTime();
+      const dateA = new Date(a.sent_at || a.changed_at || Date.now()).getTime();
+      const dateB = new Date(b.sent_at || b.changed_at || Date.now()).getTime();
       return dateB - dateA;
     });
     
@@ -188,18 +188,18 @@ export class SyncManager {
       content += `## Nově synchronizované kampaně (${syncedCampaigns.length})\n\n`;
       
       const sorted = [...syncedCampaigns].sort((a, b) => {
-        const dateA = new Date(a.sent_at || a.created_at).getTime();
-        const dateB = new Date(b.sent_at || b.created_at).getTime();
+        const dateA = new Date(a.sent_at || a.changed_at || Date.now()).getTime();
+        const dateB = new Date(b.sent_at || b.changed_at || Date.now()).getTime();
         return dateB - dateA;
       });
       
       sorted.forEach(campaign => {
-        const date = campaign.sent_at || campaign.created_at;
-        content += `- **${campaign.name}** (${campaign.id})\n`;
-        content += `  - Předmět: ${campaign.subject}\n`;
+        const date = campaign.sent_at || campaign.changed_at;
+        content += `- **${campaign.title}** (${campaign.id})\n`;
+        content += `  - Předmět: ${campaign.subject || 'Bez předmětu'}\n`;
         content += `  - Datum: ${date}\n`;
-        if (campaign.recipients_count) {
-          content += `  - Příjemců: ${campaign.recipients_count}\n`;
+        if (campaign.recipients) {
+          content += `  - Příjemců: ${campaign.recipients}\n`;
         }
         content += '\n';
       });

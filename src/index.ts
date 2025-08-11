@@ -80,7 +80,7 @@ async function main() {
 
     const enrichedCampaigns = [];
     for (const campaign of newCampaigns) {
-      console.log(`  📧 ${campaign.name} (${campaign.id})`);
+      console.log(`  📧 ${campaign.title} (${campaign.id})`);
       
       const detailResult = await client.getCampaignDetail(campaign.id);
       if (detailResult.success) {

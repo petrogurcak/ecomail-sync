@@ -135,14 +135,15 @@ export class CampaignToMarkdownConverter {
   private extractMetadata(campaign: EcomailCampaign): CampaignMetadata {
     return {
       id: campaign.id,
-      name: campaign.name,
-      subject: campaign.subject,
+      name: campaign.title,
+      subject: campaign.subject || 'Bez předmětu',
       preheader: campaign.preheader,
       sentAt: campaign.sent_at,
-      type: campaign.type || 'newsletter',
-      recipientsCount: campaign.recipients_count,
-      tags: campaign.tags || [],
-      segment: campaign.segment
+      type: campaign.ga ? 'promo' : 'newsletter',
+      recipientsCount: campaign.recipients,
+      fromName: campaign.from_name,
+      fromEmail: campaign.from_email,
+      ga: campaign.ga
     };
   }
 
@@ -180,12 +181,16 @@ export class CampaignToMarkdownConverter {
       section += `- **Příjemců:** ${metadata.recipientsCount.toLocaleString('cs-CZ')}\n`;
     }
     
-    if (metadata.tags && metadata.tags.length > 0) {
-      section += `- **Tagy:** ${metadata.tags.join(', ')}\n`;
+    if (metadata.fromName) {
+      section += `- **Odesílatel:** ${metadata.fromName}\n`;
     }
     
-    if (metadata.segment) {
-      section += `- **Segment:** ${metadata.segment}\n`;
+    if (metadata.fromEmail) {
+      section += `- **Email:** ${metadata.fromEmail}\n`;
+    }
+    
+    if (metadata.ga) {
+      section += `- **GA Tag:** ${metadata.ga}\n`;
     }
     
     return section;
@@ -246,10 +251,10 @@ export class CampaignToMarkdownConverter {
    * Generuje název souboru pro kampaň
    */
   private generateFilename(campaign: EcomailCampaign): string {
-    const date = new Date(campaign.sent_at || campaign.created_at);
+    const date = new Date(campaign.sent_at || campaign.changed_at || Date.now());
     const dateStr = date.toISOString().split('T')[0];
     
-    let slug = campaign.name
+    let slug = (campaign.title || campaign.subject || `campaign-${campaign.id}`)
       .toLowerCase()
       .normalize('NFD')
       .replace(/[\u0300-\u036f]/g, '')
