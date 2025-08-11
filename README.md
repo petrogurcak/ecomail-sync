@@ -240,6 +240,59 @@ npm run dev
 - ✅ GitHub Actions workflow
 - ✅ Inkrementální synchronizace
 
+## 🤖 Integrace s Claude.ai
+
+### Rychlý start pro Claude projekty
+
+```bash
+# Připrav soubory pro nahrání do Claude
+./scripts/prepare-for-claude.sh
+
+# Soubory najdeš v claude-export/ složce
+```
+
+### Způsoby použití s Claude:
+
+#### 1. **Claude Desktop - Project Knowledge**
+1. Vytvoř nový Claude Project "Ecomail Marketing" 
+2. Nahraj soubory z `claude-export/` do Project Knowledge
+3. Claude bude mít kontext všech historických kampaní
+
+#### 2. **Claude.ai Web - Přímé odkazy**
+```
+Použij odkazy v promptech:
+
+"Na základě kampaní z https://github.com/petrogurcak/ecomail-sync/tree/develop/knowledge-base/campaigns
+vytvoř novou vánoční kampaň podobnou těm z prosince 2024."
+
+"Analyzuj trendy z https://github.com/petrogurcak/ecomail-sync/blob/develop/knowledge-base/summary.md"
+```
+
+#### 3. **Automatická aktualizace**
+- Každý den se spustí sync a updatuje knowledge base
+- Nové kampaně se automaticky přidají do GitHub
+- Claude vždy pracuje s nejnovějšími daty
+
+### 💡 Příklady promptů
+
+**Vytvoření nové kampaně:**
+```
+"Na základě historických kampaní z mé knowledge base vytvoř novou letní kampaň pro Etapu. 
+Zachovej tone of voice Gábi z Etapy a zaměř se na sezónní novinky."
+```
+
+**Analýza a optimalizace:**
+```
+"Analyzuj předměty emailů z posledních 10 kampaní a navrhni 5 variant 
+pro novou kampaň o podzimním menu."
+```
+
+**A/B testing náměty:**
+```
+"Na základě úspěšných kampaní s emojis vytvoř 3 varianty předmětu 
+pro Black Friday akci."
+```
+
 ---
 
 **Vytvořeno s ❤️ pomocí Claude Code**
