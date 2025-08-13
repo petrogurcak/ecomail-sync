@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2025-08-12T03:20:14.147Z
-**Poslední synchronizace:** 2025-08-12T03:20:14.147Z
+**Vygenerováno:** 2025-08-13T03:22:51.961Z
+**Poslední synchronizace:** 2025-08-13T03:22:51.960Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Koprovka a foccacia** (131)
+  - Předmět: Proč nevyhazujeme ani drobeček chleba (a co z něj děláme) 🍞
+  - Datum: 2025-08-12 11:43:24
+  - Příjemců: 3484
 
 - **Léto** (130)
   - Předmět: Návod, jak si správně užít brunch | Smažený květák je zpět 🎉
@@ -251,11 +256,6 @@
   - Datum: 2021-11-09 07:53:04
   - Příjemců: 3329
 
-- **výzva** (76)
-  - Předmět: Pojďte hlasovat - je tu pekařská výzva ✨
-  - Datum: 2021-09-21 10:46:31
-  - Příjemců: 3233
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 130
+- **ID poslední kampaně:** 131
