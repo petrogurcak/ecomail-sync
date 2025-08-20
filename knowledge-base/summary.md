@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2025-08-19T03:13:21.280Z
-**Poslední synchronizace:** 2025-08-19T03:13:21.279Z
+**Vygenerováno:** 2025-08-20T03:11:20.473Z
+**Poslední synchronizace:** 2025-08-20T03:11:20.472Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Pizza pop up** (132)
+  - Předmět: 🍕Pizza pop-up - už středu 20.8. 🍕 Tiramisu bude taky!
+  - Datum: 2025-08-19 10:21:23
+  - Příjemců: 3469
 
 - **Koprovka a foccacia** (131)
   - Předmět: Proč nevyhazujeme ani drobeček chleba (a co z něj děláme) 🍞
@@ -251,11 +256,6 @@
   - Datum: 2021-11-11 08:00:14
   - Příjemců: 3320
 
-- **otviračka** (77)
-  - Předmět: Velké změny  ✨| Večerní Etapa? Jo..
-  - Datum: 2021-11-09 07:53:04
-  - Příjemců: 3329
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 131
+- **ID poslední kampaně:** 132
