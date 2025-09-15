@@ -1,10 +1,20 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2025-09-14T03:04:49.581Z
-**Poslední synchronizace:** 2025-09-14T03:04:49.580Z
+**Vygenerováno:** 2025-09-15T03:10:22.135Z
+**Poslední synchronizace:** 2025-09-15T03:10:22.134Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **pop up enoteca** (134)
+  - Předmět: Ups, udělali jsme chybu 🫢
+  - Datum: 2025-09-14 19:42:40
+  - Příjemců: 3477
+
+- **Pizza pop up (copy)** (133)
+  - Předmět: 🛵 Večerní POP-UP s Enotecou 🍇 | Oběd jako jeden velký zážitek
+  - Datum: 2025-09-14 14:43:13
+  - Příjemců: 3486
 
 - **Pizza pop up** (132)
   - Předmět: 🍕Pizza pop-up - už středu 20.8. 🍕 Tiramisu bude taky!
@@ -246,16 +256,6 @@
   - Datum: 2021-12-02 15:54:48
   - Příjemců: 3432
 
-- **otviračka (copy) (copy)** (80)
-  - Předmět: Cukroví, vánočky, vaječnák a tak dále... ✨ | Vánoční kurz krasopísma
-  - Datum: 2021-11-28 09:15:19
-  - Příjemců: 3394
-
-- **otviračka (copy)** (79)
-  - Předmět: Svatý Martin v Etapě nebo doma  ✨
-  - Datum: 2021-11-11 08:00:14
-  - Příjemců: 3320
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 132
+- **ID poslední kampaně:** 134
