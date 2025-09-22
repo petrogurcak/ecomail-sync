@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2025-09-21T03:10:49.676Z
-**Poslední synchronizace:** 2025-09-21T03:10:49.675Z
+**Vygenerováno:** 2025-09-22T03:10:24.905Z
+**Poslední synchronizace:** 2025-09-22T03:10:24.904Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **pop up enoteca** (135)
+  - Předmět: Menu inspirované Itálií 🫢 | Nejlepší vejce v Praze?
+  - Datum: 2025-09-21 13:38:04
+  - Příjemců: 3462
 
 - **pop up enoteca** (134)
   - Předmět: Ups, udělali jsme chybu 🫢
@@ -251,11 +256,6 @@
   - Datum: 2021-12-15 21:35:29
   - Příjemců: 3581
 
-- **nová várkaa cukroví** (81)
-  - Předmět: Další balíčky cukroví na e-shopu
-  - Datum: 2021-12-02 15:54:48
-  - Příjemců: 3432
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 134
+- **ID poslední kampaně:** 135
