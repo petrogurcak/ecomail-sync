@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2025-10-19T03:18:45.770Z
-**Poslední synchronizace:** 2025-10-19T03:18:45.769Z
+**Vygenerováno:** 2025-10-20T03:18:45.684Z
+**Poslední synchronizace:** 2025-10-20T03:18:45.683Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Podzimní menu (copy)** (137)
+  - Předmět: Cool pop-up s ohněm 🍕| Hmm cukroví...  ? 🎄
+  - Datum: 2025-10-19 13:59:01
+  - Příjemců: 3506
 
 - **Podzimní menu** (136)
   - Předmět: Podzimní menu je tady|Loučíme se s...  🫢
@@ -251,11 +256,6 @@
   - Datum: 2022-02-11 08:02:05
   - Příjemců: 3777
 
-- **Zdravý balíček** (83)
-  - Předmět: Zdravý balíček na posílení imunity 🤘  ovšem v omezeném množství
-  - Datum: 2022-01-28 19:35:21
-  - Příjemců: 3761
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 136
+- **ID poslední kampaně:** 137
