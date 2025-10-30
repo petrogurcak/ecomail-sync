@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2025-10-29T03:19:07.201Z
-**Poslední synchronizace:** 2025-10-29T03:19:07.200Z
+**Vygenerováno:** 2025-10-30T03:14:49.303Z
+**Poslední synchronizace:** 2025-10-30T03:14:49.302Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Vánoce** (139)
+  - Předmět: Je to tu! 🎄Ulov cukroví, včelí úlky, těsta
+  - Datum: 2025-10-29 19:19:24
+  - Příjemců: 3564
 
 - **Podzimní menu (copy) (copy)** (138)
   - Předmět: Přijď na koblihy | Co děláš dnes večer?
@@ -251,11 +256,6 @@
   - Datum: 2022-04-13 09:36:02
   - Příjemců: 3903
 
-- **Poslední šance jídla** (85)
-  - Předmět: Jedna poslední šance a taky jedna 1. šance 🤘 | Dneska loupáky
-  - Datum: 2022-04-06 10:13:54
-  - Příjemců: 3904
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 138
+- **ID poslední kampaně:** 139
