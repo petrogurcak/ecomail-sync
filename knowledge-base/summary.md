@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2025-12-02T03:22:22.666Z
-**Poslední synchronizace:** 2025-12-02T03:22:22.665Z
+**Vygenerováno:** 2025-12-03T03:20:56.609Z
+**Poslední synchronizace:** 2025-12-03T03:20:56.608Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Vánoce (copy)** (141)
+  - Předmět: 🎄Uvolnily se dnes vánočky - včelí úlky a těsta jsou taky
+  - Datum: 2025-12-02 09:21:00
+  - Příjemců: 3704
 
 - **Svatý martin** (140)
   - Předmět: 🌞 Plněné knedlíky, štrúdl s teplým šodó - startují 1,2,3,4.. novinky!
@@ -251,11 +256,6 @@
   - Datum: 2022-06-22 22:41:13
   - Příjemců: 4004
 
-- **Leto novinky** (87)
-  - Předmět: Letní novinky | Ochutnejte přírodu ❤️
-  - Datum: 2022-06-02 11:24:02
-  - Příjemců: 3978
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 140
+- **ID poslední kampaně:** 141
