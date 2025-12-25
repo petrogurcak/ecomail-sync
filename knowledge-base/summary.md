@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2025-12-24T03:27:30.738Z
-**Poslední synchronizace:** 2025-12-24T03:27:30.738Z
+**Vygenerováno:** 2025-12-25T03:39:20.150Z
+**Poslední synchronizace:** 2025-12-25T03:39:20.149Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Adventní newsletter 2 (copy)** (143)
+  - Předmět: Poslední dárek? 🎁 Daruj voucher
+  - Datum: 2025-12-24 07:42:05
+  - Příjemců: 3874
 
 - **Vánoce (copy) (copy)** (142)
   - Předmět: 🎄 Přijďte si dnes pro box cukroví | 20 volných vánoček v pondělí
@@ -251,11 +256,6 @@
   - Datum: 2022-07-26 17:03:11
   - Příjemců: 4022
 
-- **Léto** (89)
-  - Předmět: Hodně dobré novinky I Otevřeno celý týden ❤️
-  - Datum: 2022-07-04 16:02:34
-  - Příjemců: 4002
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 142
+- **ID poslední kampaně:** 143
