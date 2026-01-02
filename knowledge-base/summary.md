@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-01-01T03:53:24.322Z
-**Poslední synchronizace:** 2026-01-01T03:53:24.321Z
+**Vygenerováno:** 2026-01-02T03:43:33.030Z
+**Poslední synchronizace:** 2026-01-02T03:43:33.029Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Svatý martin (copy)** (144)
+  - Předmět: 🎈 Slavíme 6.narozeniny 🎈 ! Ano, dnes, ale...
+  - Datum: 2026-01-01 17:40:55
+  - Příjemců: 3877
 
 - **Adventní newsletter 2 (copy)** (143)
   - Předmět: Poslední dárek? 🎁 Daruj voucher
@@ -251,11 +256,6 @@
   - Datum: 2022-08-04 18:35:54
   - Příjemců: 4022
 
-- **Na prázdninách u babi a dědy** (90)
-  - Předmět: Zpátky na prázdniny k babi a dědovi ❤️
-  - Datum: 2022-07-26 17:03:11
-  - Příjemců: 4022
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 143
+- **ID poslední kampaně:** 144
