@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-01-09T03:43:12.609Z
-**Poslední synchronizace:** 2026-01-09T03:43:12.608Z
+**Vygenerováno:** 2026-01-10T03:27:37.235Z
+**Poslední synchronizace:** 2026-01-10T03:27:37.234Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Svatý martin (copy) (copy) (copy)** (146)
+  - Předmět: Charitativní akce |🧨 Brunch, co vás vystřelí...🪐
+  - Datum: 2026-01-09 18:44:13
+  - Příjemců: 3821
 
 - **Svatý martin (copy) (copy)** (145)
   - Předmět: 🎈 Týden plný oslav - nostalgie
@@ -251,11 +256,6 @@
   - Datum: 2022-12-04 15:18:16
   - Příjemců: 4355
 
-- **Cukroví, vánočky, vaječňák** (92)
-  - Předmět: Cukroví, vánočky, vaječnák a tak dále... ✨ | Vánoční kurz krasopísma
-  - Datum: 2022-11-22 12:39:19
-  - Příjemců: 4270
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 145
+- **ID poslední kampaně:** 146
