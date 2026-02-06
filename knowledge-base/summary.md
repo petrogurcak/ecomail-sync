@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-02-05T04:19:06.837Z
-**Poslední synchronizace:** 2026-02-05T04:19:06.836Z
+**Vygenerováno:** 2026-02-06T04:19:28.335Z
+**Poslední synchronizace:** 2026-02-06T04:19:28.334Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Svatý martin (copy) (copy) (copy) (copy) (copy)** (148)
+  - Předmět: Užijte si s námi víkend|👹 Masopust - plněné knedlíky, vdolky...
+  - Datum: 2026-02-05 19:09:51
+  - Příjemců: 3863
 
 - **Svatý martin (copy) (copy) (copy) (copy)** (147)
   - Předmět: 🧨 Pop-up týden 🧨  | Ramen i pořádný burger
@@ -251,11 +256,6 @@
   - Datum: 2022-12-19 22:32:06
   - Příjemců: 4463
 
-- **Další cukroví, vánočky a vaječňáky na e-shopu** (94)
-  - Předmět: Další cukroví, vánočky a vaječňáky na e-shopu
-  - Datum: 2022-12-14 21:25:54
-  - Příjemců: 4410
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 147
+- **ID poslední kampaně:** 148
