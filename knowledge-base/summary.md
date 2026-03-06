@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-03-05T04:15:53.414Z
-**Poslední synchronizace:** 2026-03-05T04:15:53.414Z
+**Vygenerováno:** 2026-03-06T04:11:56.424Z
+**Poslední synchronizace:** 2026-03-06T04:11:56.423Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Březen zavření / (copy)** (151)
+  - Předmět: Poslední 3 dny spolu ⏰ | Mazance na eshopu
+  - Datum: 2026-03-05 17:44:41
+  - Příjemců: 3992
 
 - **Březen zavření /** (150)
   - Předmět: Etapa se zavírá 💥| Snídaně pro pány | Úterý = motance
@@ -251,11 +256,6 @@
   - Datum: 2023-04-05 16:31:46
   - Příjemců: 4713
 
-- **Masopust (copy)** (97)
-  - Předmět: 📣 Březnové novinky| 🔥 Sleva designové kousky z dřeva | Workshop 1. pomoc miminkům
-  - Datum: 2023-03-14 07:45:51
-  - Příjemců: 4649
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 150
+- **ID poslední kampaně:** 151
