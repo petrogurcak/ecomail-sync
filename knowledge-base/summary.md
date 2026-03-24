@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-03-23T04:32:29.969Z
-**Poslední synchronizace:** 2026-03-23T04:32:29.968Z
+**Vygenerováno:** 2026-03-24T04:23:09.368Z
+**Poslední synchronizace:** 2026-03-24T04:23:09.367Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Březen zavření / (copy) (copy) (copy)** (153)
+  - Předmět: Jarní menu ⏰ |Sladký speciál | Luštíš? My luštíme...
+  - Datum: 2026-03-23 13:56:04
+  - Příjemců: 4035
 
 - **Březen zavření / (copy) (copy)** (152)
   - Předmět: V úterý "ahoj" ⏰ | Mazance na eshopu
@@ -251,11 +256,6 @@
   - Datum: 2023-06-17 16:24:55
   - Příjemců: 4773
 
-- **Masopust (copy) (copy) (copy)** (99)
-  - Předmět: 🌿 Křupavý vymazlený speciál
-  - Datum: 2023-05-14 18:04:57
-  - Příjemců: 4774
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 152
+- **ID poslední kampaně:** 153
