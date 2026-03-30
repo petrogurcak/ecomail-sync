@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-03-29T04:40:29.737Z
-**Poslední synchronizace:** 2026-03-29T04:40:29.736Z
+**Vygenerováno:** 2026-03-30T04:48:39.262Z
+**Poslední synchronizace:** 2026-03-30T04:48:39.261Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Jaro do Etapy (copy) (copy) (copy)** (155)
+  - Předmět: Velikonoce v Etapě 🌞| Poslední volné mazance 🌾
+  - Datum: 2026-03-29 13:09:17
+  - Příjemců: 4040
 
 - **Březen zavření / (copy) (copy) (copy)** (153)
   - Předmět: Jarní menu ⏰ |Sladký speciál | Luštíš? My luštíme...
@@ -251,11 +256,6 @@
   - Datum: 2023-07-19 17:47:15
   - Příjemců: 4798
 
-- **Slunovrat** (100)
-  - Předmět: Zveme vás 23.6. na oslavu ☀️ | Neděle = buchty
-  - Datum: 2023-06-17 16:24:55
-  - Příjemců: 4773
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 153
+- **ID poslední kampaně:** 155
