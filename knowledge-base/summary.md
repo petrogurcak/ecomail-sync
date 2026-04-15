@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-04-14T04:48:36.035Z
-**Poslední synchronizace:** 2026-04-14T04:48:36.034Z
+**Vygenerováno:** 2026-04-15T04:48:48.311Z
+**Poslední synchronizace:** 2026-04-15T04:48:48.310Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **pop up enoteca (copy)** (156)
+  - Předmět: Šťavnatý POP-UP| ☀️ Tento čtvrtek od 16:00
+  - Datum: 2026-04-14 11:54:17
+  - Příjemců: 4088
 
 - **Jaro do Etapy (copy) (copy) (copy)** (155)
   - Předmět: Velikonoce v Etapě 🌞| Poslední volné mazance 🌾
@@ -251,11 +256,6 @@
   - Datum: 2023-08-09 17:42:35
   - Příjemců: 4798
 
-- **Slunovrat (copy)** (101)
-  - Předmět: Nová keramika | Snídaňový spešl ☀️ | Ve čtvrtek pečeme nejlahodnější danishe
-  - Datum: 2023-07-19 17:47:15
-  - Příjemců: 4798
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 155
+- **ID poslední kampaně:** 156
