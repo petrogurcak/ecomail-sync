@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-04-24T03:13:07.022Z
-**Poslední synchronizace:** 2026-04-24T03:13:07.021Z
+**Vygenerováno:** 2026-04-25T03:10:49.455Z
+**Poslední synchronizace:** 2026-04-25T03:10:49.455Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **pop up enoteca (copy) (copy) (copy) (copy)** (160)
+  - Předmět: Rebarbora, palačinka... ♥️ | Těstoviny pro nejmenší| Další kurz čeká
+  - Datum: 2026-04-24 16:46:13
+  - Příjemců: 4123
 
 - **pop up enoteca (copy) (copy) (copy)** (159)
   - Předmět: Otvíráme Etapa studio | 1. kurz je tady!
@@ -251,11 +256,6 @@
   - Datum: 2023-10-23 06:00:46
   - Příjemců: 4863
 
-- **Slunovrat (copy) (copy) (copy)** (103)
-  - Předmět: Podzimní novinky ☀️
-  - Datum: 2023-10-12 06:30:48
-  - Příjemců: 4880
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 159
+- **ID poslední kampaně:** 160
