@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-06-09T03:17:19.618Z
-**Poslední synchronizace:** 2026-06-09T03:17:19.617Z
+**Vygenerováno:** 2026-06-10T03:16:59.952Z
+**Poslední synchronizace:** 2026-06-10T03:16:59.951Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **winegeek** (162)
+  - Předmět: Co děláte tento čtvrtek? Máme návrh  ☀️ ! | Novinka - KPZ bedýnky
+  - Datum: 2026-06-09 08:44:10
+  - Příjemců: 4178
 
 - **pop up enoteca (copy) (copy) (copy) (copy) (copy)** (161)
   - Předmět: Zveme vás na akci Čas si hrát ☀️ | Workshopy a "léto" na talíři🪁
@@ -251,11 +256,6 @@
   - Datum: 2024-03-11 16:08:55
   - Příjemců: 4096
 
-- **Cukroví, vánočky 16.11.2023** (105)
-  - Předmět: Cukroví, vánočky z Etapy
-  - Datum: 2023-11-16 19:00:53
-  - Příjemců: 4887
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 161
+- **ID poslední kampaně:** 162
