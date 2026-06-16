@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-06-15T03:20:14.734Z
-**Poslední synchronizace:** 2026-06-15T03:20:14.733Z
+**Vygenerováno:** 2026-06-16T03:18:51.738Z
+**Poslední synchronizace:** 2026-06-16T03:18:51.737Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **furiant** (163)
+  - Předmět: Sladký POP-UP s Furiantem  ☀️ ! | Nejmilovanější hity na talíři
+  - Datum: 2026-06-15 13:28:24
+  - Příjemců: 4163
 
 - **winegeek** (162)
   - Předmět: Co děláte tento čtvrtek? Máme návrh  ☀️ ! | Novinka - KPZ bedýnky
@@ -251,11 +256,6 @@
   - Datum: 2024-03-20 16:40:29
   - Příjemců: 4095
 
-- **Unor** (106)
-  - Předmět: Jsme zpět a máme novinky | Hledáme parťáky 🔥
-  - Datum: 2024-03-11 16:08:55
-  - Příjemců: 4096
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 162
+- **ID poslední kampaně:** 163
