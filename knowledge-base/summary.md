@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-06-23T03:16:07.439Z
-**Poslední synchronizace:** 2026-06-23T03:16:07.438Z
+**Vygenerováno:** 2026-06-24T03:16:34.798Z
+**Poslední synchronizace:** 2026-06-24T03:16:34.798Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **winegeek (copy)** (164)
+  - Předmět: Čtvrteční večer u nás !  Na prázdniny jedině s...
+  - Datum: 2026-06-23 17:26:40
+  - Příjemců: 4150
 
 - **furiant** (163)
   - Předmět: Sladký POP-UP s Furiantem  ☀️ ! | Nejmilovanější hity na talíři
@@ -251,11 +256,6 @@
   - Datum: 2024-06-30 18:31:40
   - Příjemců: 4255
 
-- **Unor (copy)** (107)
-  - Předmět: Mazance ? Jasně jsou na eshopu, objednejte 🔥
-  - Datum: 2024-03-20 16:40:29
-  - Příjemců: 4095
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 163
+- **ID poslední kampaně:** 164
