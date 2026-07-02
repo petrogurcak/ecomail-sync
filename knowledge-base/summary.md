@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-07-01T03:18:09.837Z
-**Poslední synchronizace:** 2026-07-01T03:18:09.836Z
+**Vygenerováno:** 2026-07-02T03:14:36.967Z
+**Poslední synchronizace:** 2026-07-02T03:14:36.966Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Jaro do Etapy (copy) (copy) (copy) (copy)** (157)
+  - Předmět: Novinky novinky novinky 🌞| Náš 1. merch 🥳
+  - Datum: 2026-07-01 17:00:10
+  - Příjemců: 4130
 
 - **winegeek (copy)** (164)
   - Předmět: Čtvrteční večer u nás !  Na prázdniny jedině s...
@@ -251,11 +256,6 @@
   - Datum: 2024-08-05 07:04:26
   - Příjemců: 4268
 
-- **Draft červenec** (108)
-  - Předmět: Co je nového v Etapě? 🌞| Borůvky v hlavní roli
-  - Datum: 2024-06-30 18:31:40
-  - Příjemců: 4255
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 164
+- **ID poslední kampaně:** 157
