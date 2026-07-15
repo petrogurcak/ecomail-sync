@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-07-14T03:08:14.999Z
-**Poslední synchronizace:** 2026-07-14T03:08:14.998Z
+**Vygenerováno:** 2026-07-15T03:08:43.906Z
+**Poslední synchronizace:** 2026-07-15T03:08:43.905Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Léto / Ramiro / Ramen** (165)
+  - Předmět: Argentinská hostina 🌞| Koprovka nebo nadýchané lívance?
+  - Datum: 2026-07-14 13:01:57
+  - Příjemců: 4124
 
 - **Jaro do Etapy (copy) (copy) (copy) (copy)** (157)
   - Předmět: Novinky novinky novinky 🌞| Náš 1. merch 🥳
@@ -251,11 +256,6 @@
   - Datum: 2024-09-02 07:05:41
   - Příjemců: 4251
 
-- **Srpen** (110)
-  - Předmět: Na co se můžete v srpnu těšit v Etapě ☀️ | maragdovo-zelená novinka 🐸
-  - Datum: 2024-08-05 07:04:26
-  - Příjemců: 4268
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 157
+- **ID poslední kampaně:** 165
