@@ -1,7 +1,7 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-07-19T03:09:55.435Z
-**Poslední synchronizace:** 2026-07-19T03:09:55.435Z
+**Vygenerováno:** 2026-07-20T03:10:42.027Z
+**Poslední synchronizace:** 2026-07-20T03:10:42.026Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
