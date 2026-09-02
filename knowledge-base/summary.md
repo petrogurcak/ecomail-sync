@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-09-01T07:31:44.726Z
-**Poslední synchronizace:** 2026-09-01T07:31:44.725Z
+**Vygenerováno:** 2026-09-02T06:57:27.391Z
+**Poslední synchronizace:** 2026-09-02T06:57:27.390Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Léto / Ramiro / Ramen (copy) (copy) (copy)** (168)
+  - Předmět: Něco končí... ⏰ | Něco lepšího začíná
+  - Datum: 2026-09-01 15:19:27
+  - Příjemců: 4105
 
 - **Léto / Ramiro / Ramen (copy) (copy)** (167)
   - Předmět: Zelená, uzená... je zpátky ⏰ | 🧘🏻‍♀️Summer table & yoga
@@ -251,11 +256,6 @@
   - Datum: 2024-11-17 17:33:20
   - Příjemců: 4270
 
-- **Listopad** (115)
-  - Předmět: Máme pro vás 2 novinky 🎉 ... Na co se můžete těšit v listopadu?
-  - Datum: 2024-11-12 07:15:48
-  - Příjemců: 4291
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 167
+- **ID poslední kampaně:** 168
