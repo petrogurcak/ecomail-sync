@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-09-17T07:24:04.551Z
-**Poslední synchronizace:** 2026-09-17T07:24:04.550Z
+**Vygenerováno:** 2026-09-18T07:13:36.954Z
+**Poslední synchronizace:** 2026-09-18T07:13:36.953Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **Léto / Ramiro / Ramen (copy) (copy) (copy) (copy)** (170)
+  - Předmět: DNES (e)tapas, víno  a 🎶 do 21 h | In August Company POP-UP
+  - Datum: 2026-09-17 09:44:08
+  - Příjemců: 4099
 
 - **Léto / Ramiro / Ramen (copy) (copy) (copy)** (168)
   - Předmět: Něco končí... ⏰ | Něco lepšího začíná
@@ -251,11 +256,6 @@
   - Datum: 2024-12-04 11:12:58
   - Příjemců: 4347
 
-- **Vánoce 2024** (116)
-  - Předmět: 🎄 Objednej cukroví a vánočku jako první
-  - Datum: 2024-11-17 17:33:20
-  - Příjemců: 4270
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 168
+- **ID poslední kampaně:** 170
