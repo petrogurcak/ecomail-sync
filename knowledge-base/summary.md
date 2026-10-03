@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-10-02T08:11:14.490Z
-**Poslední synchronizace:** 2026-10-02T08:11:14.489Z
+**Vygenerováno:** 2026-10-03T07:48:54.303Z
+**Poslední synchronizace:** 2026-10-03T07:48:54.302Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **říjen /nove menu** (171)
+  - Předmět: Vaši oblíbenci jsou zpět | Vdolky, vdolky, vdolky 👌🏻
+  - Datum: 2026-10-02 14:23:00
+  - Příjemců: 4087
 
 - **Léto / Ramiro / Ramen (copy) (copy) (copy) (copy)** (170)
   - Předmět: DNES (e)tapas, víno  a 🎶 do 21 h | In August Company POP-UP
@@ -251,11 +256,6 @@
   - Datum: 2024-12-19 07:10:40
   - Příjemců: 4441
 
-- **Adventní newsletter 1** (117)
-  - Předmět: 🎇 Přivítej s námi advent | Workshop pro nejmenší - hravé zdobení perníčků
-  - Datum: 2024-12-04 11:12:58
-  - Příjemců: 4347
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 170
+- **ID poslední kampaně:** 171
