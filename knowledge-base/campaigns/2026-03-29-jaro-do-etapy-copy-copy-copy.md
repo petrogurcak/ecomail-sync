@@ -7,10 +7,8 @@
 
 ## Obsah kampaně
 
-### 📧 Obsah kampaně
-Kompletní obsah této kampaně je dostupný na:
-[https://etapa.ecomailapp.cz/campaigns/render/155/69b8557d276665bd28c12672abbb7a6e](https://etapa.ecomailapp.cz/campaigns/render/155/69b8557d276665bd28c12672abbb7a6e)
-_Poznámka: Archivní zobrazení původního emailu odeslaného 2026-03-29 13:09:17._
+_Kampaň neobsahuje žádný obsah._
+
 ## Metadata
 
 - **Typ:** newsletter
