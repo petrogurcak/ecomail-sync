@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-11-10T02:13:46.329Z
-**Poslední synchronizace:** 2026-11-10T02:13:46.328Z
+**Vygenerováno:** 2026-11-11T02:12:29.900Z
+**Poslední synchronizace:** 2026-11-11T02:12:29.899Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **říjen /nove menu (copy) (copy)** (174)
+  - Předmět: Potkejme se všední den 😍| Listopadové akce ve Studiu | Cukroví?
+  - Datum: 2026-11-10 12:35:34
+  - Příjemců: 4067
 
 - **říjen /nove menu (copy)** (172)
   - Předmět: Na svátek spolu ?|🌳 Ve čtvrtek to opět vypukne | 🎬 Filmový tip
@@ -251,11 +256,6 @@
   - Datum: 2025-02-18 12:25:31
   - Příjemců: 4506
 
-- **Leden** (121)
-  - Předmět: Buďte první, kdo se doví velkou novinu 💛
-  - Datum: 2025-01-23 09:29:46
-  - Příjemců: 4534
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 172
+- **ID poslední kampaně:** 174
