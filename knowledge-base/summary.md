@@ -1,10 +1,15 @@
 # Ecomail Sync - Souhrnný Report
 
-**Vygenerováno:** 2026-11-15T02:14:01.815Z
-**Poslední synchronizace:** 2026-11-15T02:14:01.814Z
+**Vygenerováno:** 2026-11-16T02:16:06.957Z
+**Poslední synchronizace:** 2026-11-16T02:16:06.957Z
 **Celkem synchronizováno:** 50 kampaní
 
 ## Nově synchronizované kampaně (50)
+
+- **říjen /nove menu (copy) (copy) (copy)** (175)
+  - Předmět: Vánoční e-shop je "ON"🎄 | Cukroví, vosí bonboniéra, vaječňák…
+  - Datum: 2026-11-15 10:34:43
+  - Příjemců: 4057
 
 - **říjen /nove menu (copy) (copy)** (174)
   - Předmět: Potkejme se všední den 😍| Listopadové akce ve Studiu | Cukroví?
@@ -251,11 +256,6 @@
   - Datum: 2025-02-25 17:14:32
   - Příjemců: 4499
 
-- **Večeře (copy)** (122)
-  - Předmět: 👹 Plněné knedlíky, vdolky s povidlím, lokše a křen| Nový (lepší) chleba 🔥
-  - Datum: 2025-02-18 12:25:31
-  - Příjemců: 4506
-
 
 ---
 
@@ -263,4 +263,4 @@
 
 - **Celkový počet synchronizovaných kampaní:** 50
 - **Počet sledovaných ID v cache:** 50
-- **ID poslední kampaně:** 174
+- **ID poslední kampaně:** 175
